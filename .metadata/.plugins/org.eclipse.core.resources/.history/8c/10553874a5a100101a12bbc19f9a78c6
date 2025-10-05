@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module loginapp {
+    requires java.sql;        // for JDBC
+    requires java.desktop;     // if using Swing
+}

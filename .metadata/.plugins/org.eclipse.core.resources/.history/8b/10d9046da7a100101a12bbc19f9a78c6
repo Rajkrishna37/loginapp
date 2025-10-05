@@ -1,0 +1,60 @@
+package com.loginapp1;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class UserLauncher extends JFrame {
+
+    private String username;
+
+    public UserLauncher(String username) {
+        this.username = username;
+
+        setTitle("Campus Forge - User: " + username);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+
+        // Navigation buttons
+        JPanel navPanel = new JPanel();
+        JButton homeBtn = new JButton("Home");
+        JButton searchBtn = new JButton("Search");
+        JButton profileBtn = new JButton("Profile");
+
+        navPanel.add(homeBtn);
+        navPanel.add(searchBtn);
+        navPanel.add(profileBtn);
+
+        add(navPanel, BorderLayout.NORTH);
+
+        // Panel container
+        JPanel container = new JPanel(new CardLayout());
+        add(container, BorderLayout.CENTER);
+
+        // Panels
+        HomePanelUser homePanel = new HomePanelUser(username);
+        JPanel searchPanel = new JPanel();
+        searchPanel.add(new JLabel("Search Panel"));
+        JPanel profilePanel = new JPanel();
+        profilePanel.add(new JLabel("Profile Panel"));
+
+        container.add(homePanel, "Home");
+        container.add(searchPanel, "Search");
+        container.add(profilePanel, "Profile");
+
+        // Navigation actions
+        homeBtn.addActionListener(e -> switchPanel(container, "Home"));
+        searchBtn.addActionListener(e -> switchPanel(container, "Search"));
+        profileBtn.addActionListener(e -> switchPanel(container, "Profile"));
+
+        // Show home panel by default
+        switchPanel(container, "Home");
+
+        setVisible(true);
+    }
+
+    private void switchPanel(JPanel container, String name) {
+        CardLayout cl = (CardLayout) container.getLayout();
+        cl.show(container, name);
+    }
+}

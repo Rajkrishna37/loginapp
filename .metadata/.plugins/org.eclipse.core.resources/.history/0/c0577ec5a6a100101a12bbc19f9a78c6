@@ -1,0 +1,66 @@
+package com.loginapp1;
+
+import javax.swing.*;
+import java.awt.event.*;
+import java.sql.*;
+
+public class LoginPage extends JFrame implements ActionListener {
+    JTextField usernameField;
+    JPasswordField passwordField;
+    JButton loginButton;
+
+    public LoginPage() {
+        setTitle("Login");
+        setSize(300, 200);
+        setLayout(null);
+
+        JLabel userLabel = new JLabel("Username:");
+        userLabel.setBounds(20, 20, 80, 25);
+        add(userLabel);
+
+        usernameField = new JTextField();
+        usernameField.setBounds(100, 20, 160, 25);
+        add(usernameField);
+
+        JLabel passLabel = new JLabel("Password:");
+        passLabel.setBounds(20, 60, 80, 25);
+        add(passLabel);
+
+        passwordField = new JPasswordField();
+        passwordField.setBounds(100, 60, 160, 25);
+        add(passwordField);
+
+        loginButton = new JButton("Login");
+        loginButton.setBounds(100, 100, 80, 25);
+        loginButton.addActionListener(this);
+        add(loginButton);
+
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setVisible(true);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        String username = usernameField.getText();
+        String password = new String(passwordField.getPassword());
+
+        try (Connection conn = DBConnection.getConnection()) {
+            String query = "SELECT * FROM users WHERE username=? AND password=?";
+            PreparedStatement pst = conn.prepareStatement(query);
+            pst.setString(1, username);
+            pst.setString(2, password);
+            ResultSet rs = pst.executeQuery();
+
+            if (rs.next()) {
+                JOptionPane.showMessageDialog(this, "Login Successful!");
+            } else {
+                JOptionPane.showMessageDialog(this, "Invalid credentials!");
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        new LoginPage();
+    }
+}

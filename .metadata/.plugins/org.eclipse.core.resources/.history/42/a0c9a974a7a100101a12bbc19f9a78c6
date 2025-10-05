@@ -1,0 +1,134 @@
+package com.loginapp1;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+import java.sql.*;
+
+public class AdminSearchPanel extends JPanel {
+
+    private JTextField searchField;
+    private JButton searchButton;
+    private JPanel resultsPanel;
+
+    public AdminSearchPanel() {
+        setLayout(new BorderLayout());
+
+        // Header
+        JLabel header = new JLabel("🔍 Search Users by Talent", SwingConstants.CENTER);
+        header.setFont(new Font("Serif", Font.BOLD, 26));
+        add(header, BorderLayout.NORTH);
+
+        // Search area
+        JPanel searchPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 20, 10));
+        searchField = new JTextField(20);
+        searchButton = new JButton("Search");
+        searchPanel.add(new JLabel("Enter skill/talent:"));
+        searchPanel.add(searchField);
+        searchPanel.add(searchButton);
+        add(searchPanel, BorderLayout.CENTER);
+
+        // Results panel inside scroll
+        resultsPanel = new JPanel();
+        resultsPanel.setLayout(new BoxLayout(resultsPanel, BoxLayout.Y_AXIS));
+        JScrollPane scrollPane = new JScrollPane(resultsPanel);
+        scrollPane.setPreferredSize(new Dimension(800, 400));
+        add(scrollPane, BorderLayout.SOUTH);
+
+        // Search button action
+        searchButton.addActionListener(e -> searchUsers());
+    }
+
+    private void searchUsers() {
+        String skill = searchField.getText().trim();
+        if (skill.isEmpty()) {
+            JOptionPane.showMessageDialog(this, "Enter a skill/talent to search!");
+            return;
+        }
+
+        resultsPanel.removeAll();
+
+        try (Connection conn = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/loginapp", "root", "root")) {
+
+            // Search users with this skill
+            String sql = "SELECT u.id, u.username FROM users u " +
+                    "JOIN user_skills s ON u.id = s.user_id WHERE s.skill_name LIKE ?";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ps.setString(1, "%" + skill + "%");
+            ResultSet rs = ps.executeQuery();
+
+            boolean hasResults = false;
+            while (rs.next()) {
+                hasResults = true;
+                int userId = rs.getInt("id");
+                String username = rs.getString("username");
+
+                JPanel userPanel = new JPanel();
+                userPanel.setLayout(new BoxLayout(userPanel, BoxLayout.Y_AXIS));
+                userPanel.setBorder(BorderFactory.createTitledBorder("User: " + username));
+
+                // --- Show skills ---
+                PreparedStatement skillPs = conn.prepareStatement(
+                        "SELECT skill_name FROM user_skills WHERE user_id=?");
+                skillPs.setInt(1, userId);
+                ResultSet skillRs = skillPs.executeQuery();
+                StringBuilder sb = new StringBuilder("Skills:\n");
+                while (skillRs.next()) {
+                    sb.append(" • ").append(skillRs.getString("skill_name")).append("\n");
+                }
+                JTextArea skillsArea = new JTextArea(sb.toString());
+                skillsArea.setEditable(false);
+                userPanel.add(skillsArea);
+
+                // --- Show certificates ---
+                PreparedStatement certPs = conn.prepareStatement(
+                        "SELECT cert_id, cert_name, cert_file FROM user_certificates WHERE user_id=?");
+                certPs.setInt(1, userId);
+                ResultSet certRs = certPs.executeQuery();
+
+                while (certRs.next()) {
+                    int certId = certRs.getInt("cert_id");
+                    String certName = certRs.getString("cert_name");
+                    byte[] certFile = certRs.getBytes("cert_file");
+
+                    JPanel certPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+                    JLabel certLabel = new JLabel("Certificate: " + certName);
+                    JButton openBtn = new JButton("Open");
+
+                    openBtn.addActionListener(e -> {
+                        try {
+                            File tempFile = File.createTempFile("certificate_" + certId, ".pdf");
+                            try (FileOutputStream fos = new FileOutputStream(tempFile)) {
+                                fos.write(certFile);
+                            }
+                            if (Desktop.isDesktopSupported()) {
+                                Desktop.getDesktop().open(tempFile);
+                            } else {
+                                JOptionPane.showMessageDialog(this, "Cannot open PDF on this system.");
+                            }
+                        } catch (IOException ex) {
+                            JOptionPane.showMessageDialog(this, "Error opening certificate: " + ex.getMessage());
+                        }
+                    });
+
+                    certPanel.add(certLabel);
+                    certPanel.add(openBtn);
+                    userPanel.add(certPanel);
+                }
+
+                resultsPanel.add(userPanel);
+            }
+
+            if (!hasResults) {
+                resultsPanel.add(new JLabel("No users found with skill: " + skill));
+            }
+
+            resultsPanel.revalidate();
+            resultsPanel.repaint();
+
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(this, "Database Error: " + ex.getMessage());
+        }
+    }
+}

@@ -1,0 +1,2184 @@
+!SESSION 2025-10-04 16:26:44.693 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-04 16:26:48.458
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-10-04 16:26:48.776
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-04 16:27:25.067
+!MESSAGE Logback config file: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 16:27:34.016
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 16:27:34.018
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 16:27:34.260
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-04 16:27:34.266
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ambadi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:27:37.272
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:27:37.563
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:05.949
+!MESSAGE [Info]	[fetchCompletions] Request 750beb2e-c0d3-450e-b59d-6a243b572884 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 987.8771000000124ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:05.950
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:13.857
+!MESSAGE [Info]	[fetchCompletions] Request 6afe0d53-d626-4fec-a056-bcfe9e7b61eb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 348.8887999999861ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:14.202
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:15.883
+!MESSAGE [Info]	[fetchCompletions] Request 6ac42190-38bf-4f1d-8bd0-ce17c5921865 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 368.38630000001285ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:15.933
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:16.306
+!MESSAGE [Info]	[fetchCompletions] Request d1f3ccd7-7aec-425b-ae01-ce98fe94cb5c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 342.30809999999474ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:16.364
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:18.412
+!MESSAGE [Info]	[fetchCompletions] Request 0c8fd262-9943-416b-b9a9-3c5c9f5993b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 332.54729999997653ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:18.472
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:18.839
+!MESSAGE [Info]	[fetchCompletions] Request 216a048f-b789-4672-8183-0754618bd79a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 338.8491999999969ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:18.877
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:27.916
+!MESSAGE [Info]	[fetchCompletions] Request cfc718b2-01e7-415c-bf5e-81a4e2daa088 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 346.10150000001886ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:27.983
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:28.345
+!MESSAGE [Info]	[fetchCompletions] Request 67b14db4-253e-41cd-8bfa-b91765bd0d15 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 341.4407000000065ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:30:28.415
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:01.933
+!MESSAGE [Info]	[fetchCompletions] Request bb0e438f-b96c-46c9-ba78-2bc2359cd349 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 343.64850000001024ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:01.975
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:02.989
+!MESSAGE [Info]	[fetchCompletions] Request 2ff1b22e-74fe-490a-a42b-d92e3ba2256a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.74320000002626ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:02.991
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:08.528
+!MESSAGE [Info]	[fetchCompletions] Request a1744834-568b-4c27-a3f1-69bd7fb7c603 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 374.393699999986ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:08.529
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:11.298
+!MESSAGE [Info]	[fetchCompletions] Request 5d7a6f7e-0f5f-44cd-8e91-3c7a4e40afb8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 351.4413999999815ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:11.349
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:11.749
+!MESSAGE [Info]	[fetchCompletions] Request c724bc5e-4341-4016-ab02-93deda4e528c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 363.21669999998994ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:31:11.789
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 16:31:34.598
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/DBConnection.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:33:12.925
+!MESSAGE [Info]	[fetchCompletions] Request 4dbb3c16-75ff-4eb1-b791-9eb74f47e58d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 807.6219000000274ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:33:13.046
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:33:13.370
+!MESSAGE [Info]	[fetchCompletions] Request 34150b26-04ae-4974-b75f-13e1ddbc3e11 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 301.2479999999632ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:33:13.436
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 16:33:38.131
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/LoginGUI.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:35:58.942
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:35:58.943
+!MESSAGE [Info]	[fetchCompletions] Request e26b8347-d7d1-4ecc-ac85-2b5c33e7fd42 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1003.7999000000418ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:41:09.251
+!MESSAGE [Info]	[fetchCompletions] Request f2254f18-5b96-4a43-89d6-b417e2d42371 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 977.045299999998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:41:09.319
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:41:09.683
+!MESSAGE [Info]	[fetchCompletions] Request 833a7fdb-cd5a-4952-b91a-5335122fb270 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 321.09290000004694ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:41:09.754
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:26.734
+!MESSAGE [Info]	[fetchCompletions] Request 65090172-c6ab-4174-8107-665c19acc2bf at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 351.7929000000004ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:26.776
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:27.122
+!MESSAGE [Info]	[fetchCompletions] Request 26eb0305-5d19-4b5a-a0dd-9663aed9dfb8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.29920000000857ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:27.168
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:43.621
+!MESSAGE [Info]	[fetchCompletions] Request bb898c9a-f987-4abd-80de-ece0b5a8e201 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.7441000000108ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:43.868
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:44.204
+!MESSAGE [Info]	[fetchCompletions] Request 34348a2e-329d-481f-951c-fe9e2f123766 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 312.9047000000719ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:42:44.286
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:44:43.375
+!MESSAGE [Info]	[fetchCompletions] Request 4b05f754-f803-4909-ab86-1559ec6d2dc0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 525.8684000000358ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:44:43.377
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:44:43.719
+!MESSAGE [Info]	[fetchCompletions] Request 948654fc-90c6-4d95-a6ee-f9fd4a00b508 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 313.08990000002086ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:44:43.780
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:46:58.277
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:46:58.278
+!MESSAGE [Info]	[fetchCompletions] Request 1f55e242-bfe0-4cd2-9674-e08571ec0b02 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 876.0657999999821ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:47:17.152
+!MESSAGE [Info]	[fetchCompletions] Request 3c362f8f-73f4-4440-ad71-6a17712b487a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 363.9639999999199ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:47:17.153
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:48:02.091
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:48:02.092
+!MESSAGE [Info]	[fetchCompletions] Request ebd551dd-9e57-4148-b237-0bb504d615c1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 349.86619999981485ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:51:28.926
+!MESSAGE [Info]	[fetchCompletions] Request c3535294-96b6-4ab3-81e2-49e9494d01ea at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1079.7098999998998ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:51:29.063
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:51:29.600
+!MESSAGE [Info]	[fetchCompletions] Request 9006f680-3905-4484-b1b8-722de95332c9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 439.2003000001423ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 16:51:29.601
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:20:16.968
+!MESSAGE [Info]	[fetchCompletions] Request 7c5444ae-5227-4b2d-90fb-873124df158e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1086.7719999998808ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:20:17.195
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:20:17.614
+!MESSAGE [Info]	[fetchCompletions] Request dd8cc124-7917-42c0-abc2-8afefa91ac99 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 380.4267000001855ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:20:17.697
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:20.450
+!MESSAGE [Info]	[fetchCompletions] Request 37bfa993-7149-4091-b9f6-c0493fa34be3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1155.0745999999344ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:20.608
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:21.012
+!MESSAGE [Info]	[fetchCompletions] Request a6b89cd5-a233-4a19-9ae8-a3e379344dd9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 368.0439999997616ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:21.079
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:34.552
+!MESSAGE [Info]	[fetchCompletions] Request 95afe696-6ced-4e4f-b06a-c3bbe789036c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 374.00659999996424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:25:34.553
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:26:39.745
+!MESSAGE [Info]	[fetchCompletions] Request b3533bbc-0e2b-4846-ae64-f76c06197f52 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 339.15299999993294ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:26:39.752
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:26:40.171
+!MESSAGE [Info]	[fetchCompletions] Request 92cf5831-ab8f-4f49-9558-7739fdb7e852 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 392.3857999998145ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:26:40.274
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:31:14.297
+!MESSAGE [Info]	[fetchCompletions] Request 309a58b4-2a0f-4ff7-8bc1-7b52fcf83c69 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1408.0773000000045ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:31:14.342
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:31:14.747
+!MESSAGE [Info]	[fetchCompletions] Request dde50eb3-bb7e-4a6a-9e8d-b3d24479f3b2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 375.5376999997534ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:31:14.911
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:33:53.487
+!MESSAGE [Info]	[fetchCompletions] Request cc4930dc-19cd-4511-a62b-769777c63d72 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 957.597000000067ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:33:53.488
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:35:58.692
+!MESSAGE [Info]	[fetchCompletions] Request be42a92d-5d54-42d8-a33b-f6cdb5d8fcf3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1162.4855999997817ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:35:58.804
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:35:59.213
+!MESSAGE [Info]	[fetchCompletions] Request 91e9e5f1-cb8d-4a50-bf48-f59b8eb83948 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 396.9857000000775ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:35:59.274
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:38:35.040
+!MESSAGE [Info]	[fetchCompletions] Request 831017f6-3dd7-469d-9046-e1410ab481e4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1306.203699999489ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:38:35.093
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:38:35.449
+!MESSAGE [Info]	[fetchCompletions] Request 657a840d-ef7d-4c4b-82c5-fc8c1e79b5ee at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 339.6069000000134ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:38:35.449
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:42:09.483
+!MESSAGE [Info]	[fetchCompletions] Request 3cf1074d-b08d-4460-9681-87dd9ed7ac3a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 984.9463999997824ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:42:09.573
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:42:09.991
+!MESSAGE [Info]	[fetchCompletions] Request 4f4320f0-e6da-432f-99ae-55aee5858279 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 401.6168999997899ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:42:10.064
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:47.202
+!MESSAGE [Info]	[fetchCompletions] Request 8b522ad9-bd1f-48da-b796-34dd5549bf55 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 386.5540000004694ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:47.262
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:47.660
+!MESSAGE [Info]	[fetchCompletions] Request e62e2aad-82d5-481d-a5ee-b64802c911b4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 380.6830000001937ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:47.660
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:58.742
+!MESSAGE [Info]	[fetchCompletions] Request f4b861a3-6b0c-42bc-8a1c-dfa069090b16 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 360.3446000004187ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:58.822
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:59.299
+!MESSAGE [Info]	[fetchCompletions] Request ed7a3138-1d58-45e2-b0f1-38a8dc47a8fa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 463.00899999961257ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:43:59.306
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 17:44:21.542
+!MESSAGE [Info] Document is null for editor: MainLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 17:44:21.542
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/MainLauncher.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:51:50.916
+!MESSAGE [Info]	[fetchCompletions] Request bf49cb0a-a062-40d5-ada8-0e0cc302b95b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 806.2839999999851ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:51:50.916
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:52:10.348
+!MESSAGE [Info]	[fetchCompletions] Request a3f1abd1-cef1-41a2-b24e-860b74178c6d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 368.2053000004962ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:52:10.489
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:52:10.846
+!MESSAGE [Info]	[fetchCompletions] Request e203a759-c1fc-4d72-abce-149e73831dea at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 334.39460000023246ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:52:10.910
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:55:11.768
+!MESSAGE [Info]	[fetchCompletions] Request f8f6dd69-2812-4cfa-9647-27b4f2c8cd7c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 783.2930999994278ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:55:11.817
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:55:12.139
+!MESSAGE [Info]	[fetchCompletions] Request 9b830cc0-9cb5-4b05-a396-9202e80940a4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.130900000222ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:55:12.140
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:56:36.793
+!MESSAGE [Info]	[fetchCompletions] Request 8cffa0c7-ee91-4060-aca0-f85ca0fa890a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.0038000000641ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:56:37.056
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:56:37.437
+!MESSAGE [Info]	[fetchCompletions] Request 0154ba5b-802a-4ff1-8b63-aef8f7d36073 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 363.21879999991506ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:56:37.474
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:58:32.399
+!MESSAGE [Info]	[fetchCompletions] Request 9d9a8c69-1983-4b1d-9c78-bac7c59252e9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 377.4714999999851ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:58:32.502
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:58:32.832
+!MESSAGE [Info]	[fetchCompletions] Request befd4214-43c9-49ee-9b6d-0a3e3e5bbfd2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 310.9925999995321ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 17:58:32.908
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:00:36.193
+!MESSAGE [Info]	[fetchCompletions] Request d00df487-3adf-481e-9248-ac6347e1fceb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1015.2297000000253ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:00:36.303
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:00:36.692
+!MESSAGE [Info]	[fetchCompletions] Request 380408e7-7b73-4511-89b0-157c8986e651 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 373.2218000004068ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:00:36.745
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:12.461
+!MESSAGE [Info]	[fetchCompletions] Request 0985fb7a-673d-4e4d-80da-22ec9333f5bb at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 798.4018000001088ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:12.506
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:12.866
+!MESSAGE [Info]	[fetchCompletions] Request 9dab32b9-e53e-4a2f-a04b-a5e5693e5a6d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 344.19379999954253ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:12.916
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:13.359
+!MESSAGE [Info]	[fetchCompletions] Request 96fbff27-d999-4091-b003-b6f17fa6993d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.57980000041425ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:13.413
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:13.742
+!MESSAGE [Info]	[fetchCompletions] Request d1f8a8a0-51b6-4223-88c6-d04f67e7a480 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 313.6625999994576ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:13.805
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:14.142
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:04:14.142
+!MESSAGE [Info]	[fetchCompletions] Request 20f91be5-f270-4d9b-9c69-323aa989b538 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 310.4248999999836ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:22.547
+!MESSAGE [Info]	[fetchCompletions] Request 31e41d8d-2f8b-46c5-8e46-a9dd8333b847 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1009.1890999991447ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:22.550
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:23.333
+!MESSAGE [Info]	[fetchCompletions] Request eabcf2ca-a04c-464c-9f0a-e6977d3d1695 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.50669999979436ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:23.414
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:23.756
+!MESSAGE [Info]	[fetchCompletions] Request 31d35ef0-7126-4883-aa19-0ad1fa61d91c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.8649000003934ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:23.763
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:28.393
+!MESSAGE [Info]	[fetchCompletions] Request d8c86d83-eca0-4e29-b043-c06f7c702cd5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 340.5495999995619ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:28.409
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:28.783
+!MESSAGE [Info]	[fetchCompletions] Request 63af0ae6-eed4-471b-9a84-af1a5fa0f5a8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 352.8270000005141ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:28.784
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:35.927
+!MESSAGE [Info]	[fetchCompletions] Request f8d57472-408a-4049-8222-80e83495bbe9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 322.279099999927ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:36.013
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:36.365
+!MESSAGE [Info]	[fetchCompletions] Request a17e9f62-d2b7-44ca-89a4-27db8bf1e674 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.4197999993339ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:36.373
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:47.671
+!MESSAGE [Info]	[fetchCompletions] Request 55219e12-e48e-4304-8481-2edac0abc781 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 326.5000999998301ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:47.679
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:48.325
+!MESSAGE [Info]	[fetchCompletions] Request 12dd95ad-d650-48a0-b0cc-a37226a2cfdd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 317.0813999995589ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:48.328
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:48.714
+!MESSAGE [Info]	[fetchCompletions] Request 611fe366-c3c7-4fd5-8a15-24aed57562f3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 329.89070000033826ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:48.721
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:49.244
+!MESSAGE [Info]	[fetchCompletions] Request cc9a7531-1095-41e1-b817-3598da111655 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 343.79879999998957ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:49.296
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:52.953
+!MESSAGE [Info]	[fetchCompletions] Request d2e32080-1b40-4356-8353-ee8ced9ae1e4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 349.34020000044256ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:06:52.965
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:08:32.804
+!MESSAGE [Info]	[fetchCompletions] Request 8ae59cde-af02-4ad2-ad59-2d730d18d73f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 361.07849999982864ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:08:32.815
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:08:33.192
+!MESSAGE [Info]	[fetchCompletions] Request bc15563f-cd48-44d0-986d-15c650e795b8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 355.3986999997869ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:08:33.247
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:11:02.209
+!MESSAGE [Info]	[fetchCompletions] Request 30252fbc-002a-4732-a1ff-851b16b7a22b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1010.4497999995947ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:11:02.340
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:11:02.669
+!MESSAGE [Info]	[fetchCompletions] Request 78589fda-ce43-470d-b642-20c5570a0439 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 316.66820000018924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:11:02.764
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:07.530
+!MESSAGE [Info]	[fetchCompletions] Request 76476af5-20ad-4b6e-93b7-71cc1acf6276 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 367.1001000003889ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:07.670
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:08.012
+!MESSAGE [Info]	[fetchCompletions] Request 31b734d0-b728-49f3-9d1e-3cc7d0beaf46 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 318.4510000003502ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:08.153
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:08.496
+!MESSAGE [Info]	[fetchCompletions] Request 9e7efe95-a1a7-47c8-9d68-97b40396c1f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 319.55009999964386ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:08.625
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:08.963
+!MESSAGE [Info]	[fetchCompletions] Request ed8d6365-9616-4e7a-a7d3-95739a16eace at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 328.3222000002861ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:09.101
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:09.481
+!MESSAGE [Info]	[fetchCompletions] Request f46ccdd2-3a99-4d48-91ff-c55cb38c3007 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 354.3212999999523ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:12:09.520
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:13:52.824
+!MESSAGE [Info]	[fetchCompletions] Request ad26fc07-c741-4e04-bb40-03cf89f101c6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 365.882500000298ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-04 18:13:52.868
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.765
+!MESSAGE [Info] Document is null for editor: DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.765
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.785
+!MESSAGE [Info] Document is null for editor: module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.785
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.807
+!MESSAGE [Info] Document is null for editor: LoginGui.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.807
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/LoginGUI.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.851
+!MESSAGE [Info] Document is null for editor: UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.852
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.897
+!MESSAGE [Info] Document is null for editor: AdminLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.898
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.927
+!MESSAGE [Info] Document is null for editor: AdminHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.928
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.940
+!MESSAGE [Info] Document is null for editor: AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.940
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.951
+!MESSAGE [Info] Document is null for editor: UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.951
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.974
+!MESSAGE [Info] Document is null for editor: UserProfilePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:28.975
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserProfilePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:29.020
+!MESSAGE [Info] Document is null for editor: UserSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-04 18:15:29.020
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserSearchPanel.java
+!SESSION 2025-10-05 04:42:07.664 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-05 04:42:11.318
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-10-05 04:42:11.588
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (276) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-10-05 04:43:44.586
+!MESSAGE Logback config file: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 04:43:53.257
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 04:43:53.261
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 04:43:53.299
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-10-05 04:43:53.328
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ambadi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 04:43:55.511
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 04:43:55.844
+!MESSAGE [Info]	[certificates] Removed 8 expired certificates
+
+!ENTRY org.eclipse.core.resources 2 2 2025-10-05 05:12:52.869
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-10-05 05:12:52.869
+!MESSAGE The project description file (.project) for 'loginapp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.224
+!MESSAGE [Info] Document is null for editor: UserSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.225
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.286
+!MESSAGE [Info] Document is null for editor: UserProfilePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.286
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserProfilePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.333
+!MESSAGE [Info] Document is null for editor: UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.334
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.373
+!MESSAGE [Info] Document is null for editor: UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.374
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.418
+!MESSAGE [Info] Document is null for editor: LoginGUI.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.419
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/LoginGUI.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.482
+!MESSAGE [Info] Document is null for editor: DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.484
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.530
+!MESSAGE [Info] Document is null for editor: AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.532
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.572
+!MESSAGE [Info] Document is null for editor: AdminLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.573
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.765
+!MESSAGE [Info] File is null or removed for editor: module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.802
+!MESSAGE [Info] Document is null for editor: AdminHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:30:17.804
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/AdminHomePanel.java
+
+!ENTRY org.eclipse.egit.ui 4 0 2025-10-05 05:30:56.180
+!MESSAGE Problems encountered while deleting resources.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.lambda$1(RemoveCommand.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.deleteProjects(RemoveCommand.java:221)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand$1.runInWorkspace(RemoveCommand.java:165)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/loginapp/src'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:409)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.lambda$1(RemoveCommand.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.deleteProjects(RemoveCommand.java:221)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand$1.runInWorkspace(RemoveCommand.java:165)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-10-05 05:30:56.181
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:30:56.181
+!MESSAGE Could not delete '/loginapp/src'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:409)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.lambda$1(RemoveCommand.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand.deleteProjects(RemoveCommand.java:221)
+	at org.eclipse.egit.ui.internal.repository.tree.command.RemoveCommand$1.runInWorkspace(RemoveCommand.java:165)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2025-10-05 05:30:56.182
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-10-05 05:30:56.182
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2025-10-05 05:30:56.182
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 6 org.eclipse.core.filesystem 4 273 2025-10-05 05:30:56.182
+!MESSAGE Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:30:56.182
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp'.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-05 05:30:56.191
+!MESSAGE close() called when useCnt is already zero for Repository[C:\Users\ambadi\Desktop\loginapp\loginapp\.git]
+
+!ENTRY org.eclipse.egit.core 4 0 2025-10-05 05:30:56.196
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.core.resources\.projects\loginapp\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.project.GitProjectData.createMappingIfNeeded(GitProjectData.java:382)
+	at org.eclipse.egit.core.project.GitProjectData$2.visit(GitProjectData.java:316)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.project.GitProjectData.update(GitProjectData.java:294)
+	at org.eclipse.egit.core.project.GitProjectData$RCL.resourceChanged(GitProjectData.java:97)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:324)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:178)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:473)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1619)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-10-05 05:30:56.201
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.core.resources\.projects\loginapp\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:324)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:178)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:473)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1619)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-10-05 05:30:56.327
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.core.resources\.projects\loginapp\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.project.GitProjectData.createMappingIfNeeded(GitProjectData.java:382)
+	at org.eclipse.egit.core.project.GitProjectData$2.visit(GitProjectData.java:316)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.project.GitProjectData.update(GitProjectData.java:294)
+	at org.eclipse.egit.core.project.GitProjectData$RCL.resourceChanged(GitProjectData.java:97)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:324)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:178)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:473)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1619)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:223)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-10-05 05:30:56.328
+!MESSAGE Git team provider configuration has gone missing.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\ambadi\Desktop\loginapp\.metadata\.plugins\org.eclipse.core.resources\.projects\loginapp\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:78)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:92)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:61)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:335)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:324)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:178)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:473)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1619)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:223)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-10-05 05:31:51.016
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: Could not delete '/loginapp/src'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:409)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-10-05 05:31:51.016
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:31:51.016
+!MESSAGE Could not delete '/loginapp/src'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:409)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: Problems encountered while deleting files.
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2025-10-05 05:31:51.017
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2025-10-05 05:31:51.017
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2025-10-05 05:31:51.017
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 6 org.eclipse.core.filesystem 4 273 2025-10-05 05:31:51.017
+!MESSAGE Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp\src\com\loginapp: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.tryRemoveAndExec(ForkJoinPool.java:1351)
+	at java.base/java.util.concurrent.ForkJoinTask.awaitDone(ForkJoinTask.java:422)
+	at java.base/java.util.concurrent.ForkJoinTask.get(ForkJoinTask.java:991)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:338)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:328)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:31:51.017
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp'.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:34:58.398
+!MESSAGE [Info]	[fetchCompletions] Request 8780f7bd-c898-47e5-8cbc-a957e3701678 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2259.6310999998823ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:34:58.398
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:34:58.792
+!MESSAGE [Info]	[fetchCompletions] Request 6a014b95-2c82-4135-af9d-7e6302de2358 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 382.0879999999888ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:34:58.799
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:53.897
+!MESSAGE [Info]	[fetchCompletions] Request d1fa0ea3-c4ab-4fae-8ed2-79ce992eae6e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 502.63340000016615ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:53.898
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:54.511
+!MESSAGE [Info]	[fetchCompletions] Request efd1eb1c-3dc3-40f5-8b90-5808999b971b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 570.30979999993ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:54.512
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:59.014
+!MESSAGE [Info]	[fetchCompletions] Request 28cfd798-fb9b-4ae9-b366-f48610740720 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1593.3457999997772ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:59.015
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:59.622
+!MESSAGE [Info]	[fetchCompletions] Request ff66c95b-4194-4ff7-af8a-70e4178b3b35 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 589.4295999999158ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:36:59.627
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:39:08.847
+!MESSAGE [Info] Document is null for editor: DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:39:08.882
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/loginapp1/DBConnection.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:39:19.158
+!MESSAGE [Info]	[fetchCompletions] Request d7c1c56f-d01b-4fc6-b75a-282d890cd3b9 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1267.622599999886ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:39:19.199
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:39:19.612
+!MESSAGE [Info]	[fetchCompletions] Request 5d9f9971-05b6-4d0d-8511-f0bbde646317 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 377.1716999998316ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:39:19.702
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:40:23.512
+!MESSAGE [Info]	[fetchCompletions] Request 1fd92ba5-6bda-4f6d-9123-fbb09d8201f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 539.2243999997154ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:40:23.514
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:40:47.779
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/DBConnection.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:43.473
+!MESSAGE [Info]	[fetchCompletions] Request dbbb15b2-2998-426a-a3d6-1dc116cd5479 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 380.35430000023916ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:43.475
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:56.361
+!MESSAGE [Info]	[fetchCompletions] Request 58f5f2d5-bbb2-433f-b77f-ce96bb0611fa at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 539.1626999997534ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:56.370
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:56.775
+!MESSAGE [Info]	[fetchCompletions] Request dbc43b42-96d0-41b9-a24e-81da3fa3059b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 376.1229999996722ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:41:56.780
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:42:17.762
+!MESSAGE [Info]	[fetchCompletions] Request dcd7a82a-86d0-4ae4-877e-f66277c613a2 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 376.1406999998726ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:42:17.788
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:42:18.297
+!MESSAGE [Info]	[fetchCompletions] Request 8910a3e7-376f-4957-af60-9f2e408cb429 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 470.4104999997653ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:42:18.298
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:31.245
+!MESSAGE [Info]	[fetchCompletions] Request 728dbc77-8f0d-472f-ac33-420d32f18f92 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 460.5612000003457ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:31.345
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:32.025
+!MESSAGE [Info]	[fetchCompletions] Request bf9e71ed-42e9-4cb2-bc57-4ccd5078fb57 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 640.2346999999136ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:32.027
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:37.656
+!MESSAGE [Info]	[fetchCompletions] Request a26f9b18-4e3d-43db-9217-2f4f073c2330 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 402.3939999998547ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:37.704
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:38.371
+!MESSAGE [Info]	[fetchCompletions] Request d9f9ee28-925b-4b13-8e64-c381d6b0c25c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 646.4438999998383ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:43:38.372
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:44.859
+!MESSAGE [Info]	[fetchCompletions] Request bbed90a6-5f69-401b-b0ff-d3473f6d3555 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 421.63149999966845ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:45.048
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:45.495
+!MESSAGE [Info]	[fetchCompletions] Request dd977a1e-5f99-47c8-8c72-9d3674426334 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 413.7546000001021ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:45.573
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:48.621
+!MESSAGE [Info]	[fetchCompletions] Request 442115b5-2416-4c8c-b45c-5575a8abb865 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 413.79320000018924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:48.674
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:49.080
+!MESSAGE [Info]	[fetchCompletions] Request 9348e3fe-bfc0-40f1-801f-336999655b17 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 381.12349999975413ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:44:49.081
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:37.259
+!MESSAGE [Info]	[fetchCompletions] Request bf299637-74f0-4b52-a458-629b33190860 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 427.8695000000298ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:37.391
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:37.971
+!MESSAGE [Info]	[fetchCompletions] Request 2514337c-92d5-49f2-9bdb-aad47048bad5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 553.2642000000924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:37.972
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:41.250
+!MESSAGE [Info]	[fetchCompletions] Request 04352ec6-8982-4b76-8631-3e00b7e02f18 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 476.93330000014976ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:41.251
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:41.805
+!MESSAGE [Info]	[fetchCompletions] Request 8cc441d8-5f22-455d-bf3a-d5dd111827d4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 530.3496999996714ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:45:41.805
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:46:25.664
+!MESSAGE [Info]	[fetchCompletions] Request 7978620c-9787-4fd9-8e61-1d31e08a3455 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 542.9594000000507ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:46:25.701
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:46:26.154
+!MESSAGE [Info]	[fetchCompletions] Request 2a735012-b35c-4234-9512-c3200cad48d4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 425.4944000001997ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:46:26.155
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:47:12.366
+!MESSAGE [Info]	[fetchCompletions] Request 6e67d1ca-4cd2-4a0b-99eb-f633bdb6a0f1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 685.9558999999426ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:47:12.367
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:47:12.842
+!MESSAGE [Info]	[fetchCompletions] Request cc8c8dfd-9e4d-4458-a048-55b589300f76 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 451.3792000003159ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:47:12.842
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:48:45.249
+!MESSAGE [Info]	[fetchCompletions] Request 53dd7dbe-f1b1-4a51-8eed-1fab8fd55429 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 575.7911999998614ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:48:45.263
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:48:45.886
+!MESSAGE [Info]	[fetchCompletions] Request fa61d8ca-7bab-4c60-89bf-9f552a76f010 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 584.5449000000954ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:48:45.887
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:50:09.979
+!MESSAGE [Info] Document is null for editor: LoginPage.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:50:09.979
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/LoginPage.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:35.884
+!MESSAGE [Info]	[fetchCompletions] Request cfdcaabb-d5d5-4856-a48c-45d449a4d84b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 624.5556000000797ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:36.572
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:37.183
+!MESSAGE [Info]	[fetchCompletions] Request 3425011f-cae1-4da1-bfca-f4f64df9f2dc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 533.4780999999493ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:37.211
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:41.716
+!MESSAGE [Info]	[fetchCompletions] Request 7dce9049-efd3-46aa-8300-bf7825e9d1c5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 520.061400000006ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:50:42.520
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:51:38.090
+!MESSAGE [Info] Document is null for editor: LoginGui.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:51:38.090
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/LoginGui.java
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-10-05 05:52:12.007
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: Cannot move '/loginapp1/src/com/loginapp1'. Destination should not be under source's hierarchy.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:121)
+	at org.eclipse.core.internal.resources.Resource.assertMoveRequirements(Resource.java:243)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1609)
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1593)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.moveResources(JavaModelOperation.java:608)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processPackageFragmentResource(CopyResourceElementsOperation.java:509)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElement(CopyResourceElementsOperation.java:433)
+	at org.eclipse.jdt.internal.core.MultiOperation.processElements(MultiOperation.java:175)
+	at org.eclipse.jdt.internal.core.CopyResourceElementsOperation.processElements(CopyResourceElementsOperation.java:448)
+	at org.eclipse.jdt.internal.core.MultiOperation.executeOperation(MultiOperation.java:102)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:821)
+	at org.eclipse.jdt.internal.core.JavaModel.rename(JavaModel.java:300)
+	at org.eclipse.jdt.internal.core.PackageFragment.rename(PackageFragment.java:517)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.renamePackage(RenamePackageChange.java:214)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.RenamePackageChange.doRename(RenamePackageChange.java:121)
+	at org.eclipse.jdt.internal.corext.refactoring.AbstractJavaElementRenameChange.perform(AbstractJavaElementRenameChange.java:93)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:751)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:6118)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:03.904
+!MESSAGE [Info] Document is null for editor: DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:03.904
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.003
+!MESSAGE [Info] Document is null for editor: UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.003
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/UserLauncher.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.086
+!MESSAGE [Info] Document is null for editor: AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.087
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/AdminSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.189
+!MESSAGE [Info] Document is null for editor: AdminHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.190
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/AdminHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.271
+!MESSAGE [Info] Document is null for editor: UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.272
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/UserHomePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.354
+!MESSAGE [Info] Document is null for editor: UserSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.355
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/UserSearchPanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.448
+!MESSAGE [Info] Document is null for editor: UserProfilePanel.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:55:04.449
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/com/loginapp1/UserProfilePanel.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:55:59.545
+!MESSAGE [Info]	[fetchCompletions] Request 3e20a979-f829-44e5-b909-374025b186f3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2601.2766999993473ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:55:59.546
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:55:59.940
+!MESSAGE [Info]	[fetchCompletions] Request d1460aa2-6523-4754-989a-18913ff9321f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 381.90330000035465ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:55:59.991
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:56:00.402
+!MESSAGE [Info]	[fetchCompletions] Request 4ff613c2-2b54-4303-8560-532f59dfd84e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 388.0368999997154ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 05:56:00.466
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [null]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:56:18.645
+!MESSAGE [Info] Document is null for editor: module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 05:56:18.646
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp1/src/module-info.java
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-10-05 05:56:18.740
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:204)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	... 18 more
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-10-05 05:56:18.741
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:56:18.741
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:204)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-10-05 05:56:18.741
+!MESSAGE Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:56:18.741
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2025-10-05 05:56:31.139
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:204)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	... 18 more
+Contains: Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2025-10-05 05:56:31.139
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:56:31.139
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:204)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+Caused by: java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	... 18 more
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2025-10-05 05:56:31.139
+!MESSAGE Could not delete: C:\Users\ambadi\Desktop\loginapp\loginapp1.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\ambadi\Desktop\loginapp\loginapp1: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:311)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:202)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:460)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:873)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1922)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:372)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:150)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:247)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:284)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:210)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2505)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2533)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2025-10-05 05:56:31.139
+!MESSAGE Could not delete 'C:\Users\ambadi\Desktop\loginapp\loginapp1'.
+
+!ENTRY org.eclipse.core.resources 2 2 2025-10-05 06:01:18.526
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-10-05 06:01:18.526
+!MESSAGE The project description file (.project) for 'loginapp1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:30:44.428
+!MESSAGE [Info]	[fetchCompletions] Request dababa21-25dc-4b02-881a-bc44877cbeae at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1703.1425999999046ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:30:44.429
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:27.539
+!MESSAGE [Info]	[fetchCompletions] Request e8d65fea-98c7-4853-a3d1-12f00a419ac5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2437.8601999999955ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:27.575
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:28.083
+!MESSAGE [Info]	[fetchCompletions] Request ab7e65c8-68bc-47e3-870e-bf2fe4d07cd0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 400.92109999991953ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:28.330
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:28.950
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:28.950
+!MESSAGE [Info]	[fetchCompletions] Request 90dcc81a-fdd8-4dd6-acb6-418e060ced18 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 588.4696000004187ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:29.355
+!MESSAGE [Info]	[fetchCompletions] Request f1f46c26-30dc-4efc-a0e1-d2da9c3dcb9f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 390.6175999995321ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:29.425
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:29.834
+!MESSAGE [Info]	[fetchCompletions] Request b8c5c9cb-3ef5-4be9-a44b-d842c673e683 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 385.6990999998525ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-10-05 06:40:29.904
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2025-10-05 06:40:43.770
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.expressions.IEvaluationContext.getDefaultVariable()" because "this.evalContext" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.getCurrentState(LegacyHandlerService.java:564)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getEvaluationContext(SelectionUtils.java:534)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getStructuredSelection(SelectionUtils.java:237)
+	at org.eclipse.egit.ui.internal.selection.RepositorySourceProvider.selectionChanged(RepositorySourceProvider.java:90)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:352)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.track(SelectionAggregator.java:205)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:114)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:189)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.clearContext(PartRenderingEngine.java:982)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:955)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:113)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:934)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2076)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1177)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1160)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1714)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1750)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:101)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:273)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1566)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-10-05 06:40:43.776
+!MESSAGE Cannot invoke "org.eclipse.core.expressions.IEvaluationContext.getDefaultVariable()" because "this.evalContext" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.expressions.IEvaluationContext.getDefaultVariable()" because "this.evalContext" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.getCurrentState(LegacyHandlerService.java:564)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getEvaluationContext(SelectionUtils.java:534)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getStructuredSelection(SelectionUtils.java:237)
+	at org.eclipse.egit.ui.internal.selection.RepositorySourceProvider.selectionChanged(RepositorySourceProvider.java:90)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:109)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.runAndTrack(EclipseContext.java:352)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.track(SelectionAggregator.java:205)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.setPart(SelectionAggregator.java:114)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:189)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.clearContext(PartRenderingEngine.java:982)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:955)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:113)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:934)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2076)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1177)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1160)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1714)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1750)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:101)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:273)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1566)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-10-05 06:40:43.779
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.core.expressions.IEvaluationContext.getDefaultVariable()" because "this.evalContext" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.getCurrentState(LegacyHandlerService.java:564)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getEvaluationContext(SelectionUtils.java:534)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getStructuredSelection(SelectionUtils.java:237)
+	at org.eclipse.egit.ui.internal.selection.RepositorySourceProvider.selectionChanged(RepositorySourceProvider.java:90)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:178)
+	at org.eclipse.ui.internal.WorkbenchWindow$WWinPartService.partActivated(WorkbenchWindow.java:3152)
+	at org.eclipse.ui.internal.WorkbenchPage$2.run(WorkbenchPage.java:4887)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartActivated(WorkbenchPage.java:4884)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:215)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:250)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:247)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:780)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.setPart(PartServiceImpl.java:218)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:100)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:371)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:189)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.clearContext(PartRenderingEngine.java:982)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:955)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:113)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:934)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:889)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:896)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2076)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1717)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1177)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1160)
+	at org.eclipse.ui.internal.Workbench.lambda$5(Workbench.java:1466)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1466)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1437)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1714)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1741)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1741)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1750)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:505)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:574)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:101)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:136)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1238)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1223)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:273)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1566)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4787)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:504)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4887)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1494)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2378)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5130)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 06:40:44.019
+!MESSAGE [Info] Document is null for editor: module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 06:40:44.020
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/module-info.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 06:40:44.040
+!MESSAGE [Info] Document is null for editor: DBConnection.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-10-05 06:40:44.041
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ambadi/Desktop/loginapp/loginapp/src/com/loginapp/DBConnection.java

@@ -1,0 +1,110 @@
+package com.loginapp1;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+import java.sql.*;
+
+public class AdminHomePanel extends JPanel {
+
+    private String username;  // admin username
+
+    public AdminHomePanel(String username) {
+        this.username = username;
+        setLayout(new BorderLayout());
+
+        // Header
+        JLabel welcomeLabel = new JLabel("🏠 Admin Dashboard - Campus Forge", SwingConstants.CENTER);
+        welcomeLabel.setFont(new Font("Serif", Font.BOLD, 28));
+        add(welcomeLabel, BorderLayout.NORTH);
+
+        // Scrollable content panel
+        JPanel contentPanel = new JPanel();
+        contentPanel.setLayout(new BoxLayout(contentPanel, BoxLayout.Y_AXIS));
+        JScrollPane scrollPane = new JScrollPane(contentPanel);
+        add(scrollPane, BorderLayout.CENTER);
+
+        // Fetch users and display
+        fetchAllUsersData(contentPanel);
+    }
+
+    private void fetchAllUsersData(JPanel contentPanel) {
+        try (Connection conn = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/loginapp", "root", "root")) {
+
+            // Get all users
+            PreparedStatement ps = conn.prepareStatement("SELECT id, username FROM users");
+            ResultSet rs = ps.executeQuery();
+
+            contentPanel.removeAll();
+
+            while (rs.next()) {
+                int userId = rs.getInt("id");
+                String uname = rs.getString("username");
+
+                // Panel for each user
+                JPanel userPanel = new JPanel();
+                userPanel.setLayout(new BoxLayout(userPanel, BoxLayout.Y_AXIS));
+                userPanel.setBorder(BorderFactory.createTitledBorder("User: " + uname));
+
+                // --- Fetch skills ---
+                PreparedStatement skillPs = conn.prepareStatement("SELECT skill_name FROM user_skills WHERE user_id=?");
+                skillPs.setInt(1, userId);
+                ResultSet skillRs = skillPs.executeQuery();
+
+                StringBuilder sb = new StringBuilder("Skills:\n");
+                while (skillRs.next()) {
+                    sb.append(" - ").append(skillRs.getString("skill_name")).append("\n");
+                }
+                JTextArea skillArea = new JTextArea(sb.toString());
+                skillArea.setEditable(false);
+                userPanel.add(skillArea);
+
+                // --- Fetch certificates ---
+                PreparedStatement certPs = conn.prepareStatement(
+                        "SELECT cert_id, cert_name, cert_file FROM user_certificates WHERE user_id=?");
+                certPs.setInt(1, userId);
+                ResultSet certRs = certPs.executeQuery();
+
+                while (certRs.next()) {
+                    int certId = certRs.getInt("cert_id");
+                    String certName = certRs.getString("cert_name");
+                    byte[] certFile = certRs.getBytes("cert_file");
+
+                    JPanel certPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+                    JLabel certLabel = new JLabel("Certificate: " + certName);
+                    JButton showBtn = new JButton("Show");
+
+                    // Action to open PDF
+                    showBtn.addActionListener(e -> {
+                        try {
+                            File tempFile = File.createTempFile("certificate_" + certId, ".pdf");
+                            try (FileOutputStream fos = new FileOutputStream(tempFile)) {
+                                fos.write(certFile);
+                            }
+                            if (Desktop.isDesktopSupported()) {
+                                Desktop.getDesktop().open(tempFile);
+                            } else {
+                                JOptionPane.showMessageDialog(this, "Cannot open PDF on this system.");
+                            }
+                        } catch (IOException ex) {
+                            JOptionPane.showMessageDialog(this, "Error opening certificate: " + ex.getMessage());
+                        }
+                    });
+
+                    certPanel.add(certLabel);
+                    certPanel.add(showBtn);
+                    userPanel.add(certPanel);
+                }
+
+                contentPanel.add(userPanel);
+            }
+
+            contentPanel.revalidate();
+            contentPanel.repaint();
+
+        } catch (SQLException e) {
+            JOptionPane.showMessageDialog(this, "Database Error: " + e.getMessage());
+        }
+    }
+}

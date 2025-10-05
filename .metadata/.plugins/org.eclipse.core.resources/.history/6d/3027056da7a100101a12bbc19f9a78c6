@@ -1,0 +1,115 @@
+package com.loginapp1;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+import java.sql.*;
+
+public class UserProfilePanel extends JPanel {
+
+    private String username;
+
+    public UserProfilePanel(String username) {
+        this.username = username;
+        setLayout(new GridBagLayout());
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(15, 15, 15, 15);
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+
+        JLabel header = new JLabel("⚙ Profile - Add Skills / Upload Certificates", SwingConstants.CENTER);
+        header.setFont(new Font("Serif", Font.BOLD, 22));
+        gbc.gridx = 0; gbc.gridy = 0; gbc.gridwidth = 2;
+        add(header, gbc);
+
+        // Skill selection
+        JLabel skillLabel = new JLabel("Select Skill:");
+        gbc.gridx = 0; gbc.gridy = 1; gbc.gridwidth = 1;
+        add(skillLabel, gbc);
+
+        String[] skills = {"Java", "Python", "C++", "SQL", "Web Development", "AI/ML"};
+        JComboBox<String> skillBox = new JComboBox<>(skills);
+        gbc.gridx = 1;
+        add(skillBox, gbc);
+
+        JButton addSkillBtn = new JButton("Add Skill");
+        gbc.gridx = 1; gbc.gridy = 2;
+        add(addSkillBtn, gbc);
+
+        addSkillBtn.addActionListener(e -> {
+            String skill = (String) skillBox.getSelectedItem();
+            if (skill == null) return;
+
+            try (Connection conn = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/loginapp", "root", "root")) {
+
+                PreparedStatement ps = conn.prepareStatement(
+                        "SELECT id FROM users WHERE username=?");
+                ps.setString(1, username);
+                ResultSet rs = ps.executeQuery();
+                int userId = 0;
+                if (rs.next()) userId = rs.getInt("id");
+
+                // Check if skill exists
+                ps = conn.prepareStatement(
+                        "SELECT * FROM user_skills WHERE user_id=? AND skill_name=?");
+                ps.setInt(1, userId);
+                ps.setString(2, skill);
+                rs = ps.executeQuery();
+                if (rs.next()) {
+                    JOptionPane.showMessageDialog(this, "Skill already added!");
+                    return;
+                }
+
+                ps = conn.prepareStatement(
+                        "INSERT INTO user_skills(user_id, skill_name) VALUES(?, ?)");
+                ps.setInt(1, userId);
+                ps.setString(2, skill);
+                ps.executeUpdate();
+
+                JOptionPane.showMessageDialog(this, "Skill added successfully!");
+
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(this, "Database Error: " + ex.getMessage());
+            }
+        });
+
+        // Upload certificate
+        JButton uploadCertBtn = new JButton("Upload Certificate (PDF)");
+        gbc.gridx = 0; gbc.gridy = 3; gbc.gridwidth = 2;
+        add(uploadCertBtn, gbc);
+
+        uploadCertBtn.addActionListener(e -> {
+            JFileChooser chooser = new JFileChooser();
+            int res = chooser.showOpenDialog(this);
+            if (res == JFileChooser.APPROVE_OPTION) {
+                File file = chooser.getSelectedFile();
+                String certName = JOptionPane.showInputDialog(this, "Enter certificate name:");
+                if (certName == null || certName.trim().isEmpty()) return;
+
+                try (Connection conn = DriverManager.getConnection(
+                        "jdbc:mysql://localhost:3306/loginapp", "root", "root")) {
+
+                    PreparedStatement ps = conn.prepareStatement(
+                            "SELECT id FROM users WHERE username=?");
+                    ps.setString(1, username);
+                    ResultSet rs = ps.executeQuery();
+                    int userId = 0;
+                    if (rs.next()) userId = rs.getInt("id");
+
+                    FileInputStream fis = new FileInputStream(file);
+                    ps = conn.prepareStatement(
+                            "INSERT INTO user_certificates(user_id, cert_name, cert_file) VALUES(?, ?, ?)");
+                    ps.setInt(1, userId);
+                    ps.setString(2, certName);
+                    ps.setBinaryStream(3, fis, (int) file.length());
+                    ps.executeUpdate();
+
+                    JOptionPane.showMessageDialog(this, "Certificate uploaded successfully!");
+
+                } catch (Exception ex) {
+                    JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage());
+                }
+            }
+        });
+    }
+}
